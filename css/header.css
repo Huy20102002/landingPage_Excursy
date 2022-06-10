@@ -1,0 +1,73 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 15px;
+}
+
+header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo_img {
+  width: 76px;
+  height: 76px;
+}
+
+header .logo_text {
+  font-family: ManropeFont-bold;
+  font-size: 30px;
+  margin-left: 23px;
+}
+
+header .nav-header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nav-header ul li {
+  list-style: none;
+  padding: 10px 20px;
+}
+
+header .nav-header ul li a {
+  text-decoration: none;
+  color: #2B2B2B;
+  font-family: ManropeFont-Regular;
+}
+
+header .nav-header ul li a:hover {
+  color: #FF6600;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .users a {
+  text-decoration: none;
+  background-color: #FF6600;
+  padding: 10px 20px;
+  font-family: ManropeFont-Regular;
+  border-radius: 5px;
+  color: #FAFAFA;
+}
+
+header .users a:hover {
+  background-color: #FAFAFA;
+  color: #FF6600;
+  border: 1px solid #FF6600;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+/*# sourceMappingURL=header.css.map */

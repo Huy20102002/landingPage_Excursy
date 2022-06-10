@@ -1,0 +1,337 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+$white-color: #FFF;
+$gray-color:#FAFAFA;
+$orange-color: #FF6600;
+
+body {
+    background-color: $gray-color;
+
+}
+
+@font-face {
+    font-family: ManropeFont-bold;
+    src: url(../font/Manrope-Bold.ttf);
+}
+@font-face {
+    font-family: ManropeFont-ExtraBold;
+    src: url(../font/Manrope-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: ManropeFont-Extralight;
+    src: url(../font/Manrope-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: ManropeFont-light;
+    src: url(../font/Manrope-Light.ttf);
+}
+
+@font-face {
+    font-family: ManropeFont-Medium;
+    src: url(../font/Manrope-Medium.ttf);
+}
+
+@font-face {
+    font-family: ManropeFont-Regular;
+    src: url(../font/Manrope-Regular.ttf);
+}
+
+@font-face {
+    font-family: ManropeFont-Semibold;
+    src: url(../font/Manrope-SemiBold.ttf);
+}
+@import 'header';
+.root {
+    max-width: 100%;
+    margin: auto;
+    background-color: $gray-color;
+}
+
+main {
+    margin-top: 120px;
+}
+
+.banner {
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.banner_title {
+    font-family: ManropeFont-ExtraBold;
+    font-size: 56px;
+}
+
+.banner_title b {
+    color: $orange-color;
+}
+
+.banner_content {
+    margin-top: 20px;
+    font-family: ManropeFont-Regular;
+
+}
+
+.banner_content p {
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.banner_function {
+    margin-top: 20px;
+}
+
+.banner_function a {
+    background-color: $orange-color;
+    color: $gray-color;
+    font-family: ManropeFont-bold;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.banner_function a:first-child:hover {
+    background-color: $gray-color;
+    border: 1px solid $orange-color;
+    color: #2B2B2B;
+    transition: 0.4s;
+}
+
+.banner_img img {
+    max-width: 739px;
+    max-height: 390px;
+}
+
+.banner_function a:last-child {
+    background-color: $gray-color;
+    color: #2B2B2B;
+    border: 1px solid $orange-color;
+}
+
+.banner_function a:last-child:hover {
+    background-color: $orange-color;
+    color: $gray-color;
+    transition: 0.4s;
+}
+
+.content {
+    margin-top: 7rem;
+}
+
+.partner {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutus_text {
+    margin-left: 50px;
+}
+
+.about_us {
+    display: flex;
+    margin-top: 50px;
+}
+
+.aboutus_img {
+    width: 546px;
+}
+
+.aboutus_title {
+    font-family: ManropeFont-ExtraBold;
+    font-size: 52px;
+}
+
+.aboutus_content {
+    margin-top: 30px;
+}
+
+.aboutus_content p {
+    font-family: ManropeFont-Regular;
+    font-size: 20px;
+}
+
+.aboutus_project {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+
+.aboutus_project {
+    background-color: $white-color;
+    padding: 27px;
+}
+
+.aboutus_project p {
+    font-family: ManropeFont-Semibold;
+    font-size: 24px;
+    color: #2B2B2B;
+}
+
+.aboutus_project span {
+    font-family: ManropeFont-Bold;
+    font-size: 40px;
+    color: $orange-color;
+}
+
+
+.Our_Interests {
+    margin-top: 30px;
+
+}
+
+.title_Interests {
+    color: #2B2B2B;
+    font-family: ManropeFont-ExtraBold;
+    font-size: 52px;
+    text-align: center;
+}
+
+.top_Our {
+    font-family: ManropeFont-Regular;
+    font-size: 20px;
+    text-align: center;
+}
+
+.top_Our p {
+    margin: auto;
+    width: 62%;
+    line-height: 2;
+}
+
+.target {
+    display: flex;
+    justify-content: space-between;
+}
+
+.target_project {
+    background-color: $white-color;
+    width: 380px;
+    height: 386px;
+    margin: 15px 0;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.title_target {
+    font-family: ManropeFont-ExtraBold;
+    font-size: 28px;
+    color: #2B2B2B;
+    margin-top: 20px;
+}
+
+.description_target {
+    font-family: ManropeFont-Regular;
+    color: #5b5b5b;
+    line-height: 1.5;
+    margin-top: 15px;
+
+}
+
+.readMoreTarget {
+    margin-top: 20px;
+
+}
+
+.readMore_target {
+    font-family: ManropeFont-SemiBold;
+    color: $orange-color;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+.OurValues {
+    display: flex;
+    margin-top: 8rem;
+}
+
+.img_OurValues {
+    width: 513px;
+}
+
+.title_OurValues {
+    font-family: ManropeFont-ExtraBold;
+    font-size: 52px;
+    color: #2B2B2B;
+}
+
+.textOurValues {
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+.description_Values {
+    font-family: ManropeFont-Regular;
+    font-size: 20px;
+    color: #5b5b5b;
+    line-height: 1.8;
+}
+
+.readMoreValues {
+    margin-top: 45px;
+}
+
+.values_Link {
+    background-color: $orange-color;
+    color: $white-color;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    font-family: ManropeFont-SemiBold;
+}
+
+.currentProjects {
+    margin-top: 50px;
+}
+
+.title_currenProjects {
+    font-family: ManropeFont-ExtraBold;
+    font-size: 52px;
+    text-align: center;
+}
+
+.main_current {
+    margin-top: 45px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 3rem;
+}
+
+.currentproject{
+    align-items: center;
+}
+.text_currentprj{
+    margin-top: 20px;
+}
+.name_currentprj p:first-child{
+    font-family: ManropeFont-SemiBold;
+    font-size: 28px;
+    color: #2B2B2B;
+    width: 75%;
+}
+.name_currentprj p:last-child{
+    font-family: ManropeFont-Regular;
+    font-size: 20px;
+    color: #2B2B2B;
+    margin-top: 25px;
+    width: 80%;
+
+}
+.name_currentprj p a:last-child{
+    color: $orange-color;
+    
+}
+@import 'footer';
+
+@import 'responsive';

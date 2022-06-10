@@ -1,0 +1,46 @@
+footer{
+    margin-top: 10rem;
+    background-color: #2B2B2B;
+    width: 100%;
+   
+    .img_logo{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    .text_logo p{
+        font-family: ManropeFont-Bold;
+        color: $gray-color;
+        font-size: 30px;
+        margin-left: 25px;
+    }
+    .img_logo img{
+        width: 62px;
+    }
+    .social_NetWork{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon_network{
+        margin: 25px 15px;
+    
+    }
+    .NavFooter ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .NavFooter ul li {
+        list-style: none;
+        padding-bottom: 30px;
+    }
+    .NavFooter ul li a{
+        text-decoration: none;
+        color: $gray-color;
+        margin: 10px 25px;
+        font-family: ManropeFont-Regular;
+    }
+}

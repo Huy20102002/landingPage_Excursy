@@ -1,0 +1,315 @@
+/* Large Screens */
+.navres {
+  display: none;
+}
+
+.close {
+  font-size: 30px;
+}
+
+.toggle .navbarimg {
+  display: block;
+}
+
+.toggle .close {
+  display: none;
+}
+
+.toggleblock .navbarimg {
+  display: none;
+}
+
+.toggleblock .close {
+  cursor: pointer;
+  display: block;
+  z-index: 100;
+}
+
+@media only screen and (min-width: 1824px) {
+  .container {
+    max-width: 1440px;
+    margin: auto;
+  }
+}
+
+/*  Laptop */
+@media only screen and (min-width: 1224px) {
+  .container {
+    max-width: 1224px;
+    margin: auto;
+  }
+  .footer {
+    max-width: 1224px;
+    margin: auto;
+  }
+}
+
+/* Ipad */
+@media only screen and (max-width: 768px) {
+  .container {
+    max-width: 700px;
+    margin: auto;
+  }
+  .nav-header {
+    display: none;
+  }
+  .menuResponsive .nav-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .menuResponsive .nav-header ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+    position: absolute;
+    margin: auto;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    padding-top: 130px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-animation: scrollAnimation 0.1s;
+            animation: scrollAnimation 0.1s;
+    overflow: hidden;
+  }
+  .users {
+    display: none;
+  }
+  header .logo_img {
+    width: 44px;
+    height: 44px;
+  }
+  .navres {
+    display: block;
+    cursor: pointer;
+  }
+  .toggleblock .close {
+    cursor: pointer;
+    display: block;
+    position: absolute;
+    z-index: 101;
+    left: 90%;
+    top: 3%;
+  }
+  .toggleblock .close:focus {
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .banner_title {
+    text-align: center;
+    font-size: 36px;
+  }
+  .banner_content {
+    text-align: center;
+    font-size: 14px;
+  }
+  .banner_img {
+    margin: auto;
+  }
+  .banner_img img {
+    width: 309px;
+    height: 164px;
+  }
+  .banner_function {
+    margin: auto;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .banner_function a {
+    padding: 5px 20px;
+    font-size: 14px;
+  }
+  .partner_img img {
+    width: 65px;
+    height: 20px;
+  }
+  .about_us {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .aboutus_img {
+    margin: auto;
+    text-align: center;
+  }
+  .aboutus_img img {
+    width: 410px;
+    margin-left: -125px;
+  }
+  .aboutus_title {
+    text-align: center;
+    font-size: 24px;
+  }
+  .aboutus_content p {
+    font-size: 14px;
+    text-align: center;
+  }
+  .aboutus_project {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: auto;
+    background-color: #FAFAFA;
+    width: 300px;
+  }
+  .project_main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .project_main p {
+    font-size: 16px;
+  }
+  .project_main span {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 6px;
+    gap: 10px;
+    margin: 20px 0;
+    background-color: #FFEDE6;
+  }
+  .title_Interests {
+    font-size: 24px;
+  }
+  .top_Our p {
+    font-size: 12px;
+  }
+  .target {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .target_project {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 15px;
+  }
+  .text_target {
+    margin-top: -25px;
+  }
+  .OurValues {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .img_OurValues {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+  }
+  .img_OurValues img {
+    width: 399px;
+  }
+  .textOurValues {
+    margin-left: 0;
+  }
+  .title_OurValues {
+    text-align: center;
+    font-size: 24px;
+  }
+  .description_Values {
+    font-size: 14px;
+    text-align: center;
+  }
+  .readMoreValues {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .title_currenProjects p {
+    color: #FF6600;
+    font-size: 24px;
+  }
+  .main_current {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main_current .currentproject {
+    display: contents;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+  }
+  .main_current .img_currentProject img {
+    width: 343px;
+  }
+  .main_current .name_currentprj .name_description {
+    font-size: 12px;
+  }
+  .main_current .name_currentprj .name_title {
+    font-size: 24px;
+  }
+  .NavFooter {
+    display: none;
+  }
+  @-webkit-keyframes scrollAnimation {
+    0% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+      background-color: #fff;
+    }
+    100% {
+      background-color: #fff;
+    }
+  }
+  @keyframes scrollAnimation {
+    0% {
+      -webkit-transform: translateX(100px);
+              transform: translateX(100px);
+      background-color: #fff;
+    }
+    100% {
+      background-color: #fff;
+    }
+  }
+}
+
+/* Smart Phone */
+/*# sourceMappingURL=responsive.css.map */

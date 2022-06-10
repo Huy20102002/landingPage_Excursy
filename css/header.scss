@@ -1,0 +1,60 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    .logo {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .logo_img {
+        width: 76px;
+        height: 76px;
+    }
+    
+    .logo_text {
+        font-family: ManropeFont-bold;
+        font-size: 30px;
+        margin-left: 23px;
+    }
+    
+    .nav-header ul {
+        display: flex;
+    }
+    
+    .nav-header ul li {
+        list-style: none;
+        padding: 10px 20px;
+    }
+    
+    .nav-header ul li a {
+        text-decoration: none;
+        color: #2B2B2B;
+        font-family: ManropeFont-Regular;
+    }
+    
+    .nav-header ul li a:hover {
+        color: #FF6600;
+        transition: 0.3s;
+    }
+    
+    
+    .users a {
+        text-decoration: none;
+        background-color: #FF6600;
+        padding: 10px 20px;
+        font-family: ManropeFont-Regular;
+        border-radius: 5px;
+        color: #FAFAFA;
+    }
+    
+    .users a:hover {
+        background-color: #FAFAFA;
+        color: #FF6600;
+        border: 1px solid #FF6600;
+        transition: 0.3s;
+    }
+   
+}
