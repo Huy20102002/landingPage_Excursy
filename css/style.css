@@ -549,6 +549,9 @@ footer .NavFooter ul li a {
     max-width: 700px;
     margin: auto;
   }
+  .footer {
+    margin: auto;
+  }
   .nav-header {
     display: none;
   }
