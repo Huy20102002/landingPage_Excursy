@@ -282,9 +282,11 @@
   }
   .main_current .name_currentprj .name_description {
     font-size: 12px;
+    margin-left: 25px;
   }
   .main_current .name_currentprj .name_title {
     font-size: 24px;
+    margin-left: 25px;
   }
   .NavFooter {
     display: none;

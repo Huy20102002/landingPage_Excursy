@@ -407,14 +407,14 @@ main {
   margin-top: 20px;
 }
 
-.name_currentprj p:first-child {
+.name_currentprj .name_title {
   font-family: ManropeFont-SemiBold;
   font-size: 28px;
   color: #2B2B2B;
   width: 75%;
 }
 
-.name_currentprj p:last-child {
+.name_currentprj .name_description {
   font-family: ManropeFont-Regular;
   font-size: 20px;
   color: #2B2B2B;
@@ -781,9 +781,11 @@ footer .NavFooter ul li a {
   }
   .main_current .name_currentprj .name_description {
     font-size: 12px;
+    margin-left: 25px;
   }
   .main_current .name_currentprj .name_title {
     font-size: 24px;
+    margin-left: 25px;
   }
   .NavFooter {
     display: none;
