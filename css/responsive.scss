@@ -26,6 +26,7 @@
 }
 
 @media only screen and (min-width: 1824px) {
+
     .container {
         max-width: 1440px;
         margin: auto;
@@ -34,6 +35,7 @@
 
 /*  Laptop */
 @media only screen and (min-width: 1224px) {
+   
     .container {
         max-width: 1224px;
         margin: auto;
@@ -47,18 +49,23 @@
 
 /* Ipad */
 @media only screen and (max-width:768px) {
+    body{
+        
+    }
+    .root{
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
     .container {
         max-width: 700px;
         margin: auto;
        
       
-    }
-    .footer{
-        margin: auto;
-        bottom:0;
-        position:relative;
-        overflow-y:scroll;
-        overflow-x:hidden;
     }
     
 
@@ -325,4 +332,10 @@
 }
 
 /* Smart Phone */
-@media only screen and (min-width:320px) {}
+@media only screen and (max-width:400px) {
+    .root{
+        max-width: 399px;
+        
+    }
+   
+}
