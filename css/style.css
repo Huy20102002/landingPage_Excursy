@@ -551,6 +551,10 @@ footer .NavFooter ul li a {
   }
   .footer {
     margin: auto;
+    bottom: 0;
+    position: relative;
+    overflow-y: scroll;
+    overflow-x: hidden;
   }
   .nav-header {
     display: none;

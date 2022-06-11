@@ -55,7 +55,10 @@
     }
     .footer{
         margin: auto;
-
+        bottom:0;
+        position:relative;
+        overflow-y:scroll;
+        overflow-x:hidden;
     }
     
 
