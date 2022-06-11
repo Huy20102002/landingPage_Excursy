@@ -545,15 +545,6 @@ footer .NavFooter ul li a {
 
 /* Ipad */
 @media only screen and (max-width: 768px) {
-  .root {
-    margin: auto;
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
-    position: absolute;
-    top: 0;
-    left: 0;
-  }
   .container {
     max-width: 700px;
     margin: auto;
